@@ -11,8 +11,8 @@ python:
 
 install:
   - if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]];
-    then py.test -vv pytest-example.py --cov pytest-example;
-    else py.test -vv pytest-example.py;
+    then py.test -vv pytest_example.py --cov pytest_example;
+    else py.test -vv pytest_example.py;
     fi
 
 after_success:
